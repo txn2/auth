@@ -30,7 +30,7 @@ func main() {
 	esServer := flag.String("esServer", elasticServerEnv, "Elasticsearch Server")
 	systemPrefix := flag.String("systemPrefix", systemPrefixEnv, "Prefix for system indices.")
 
-	serverCfg, _ := micro.NewServerCfg("Provision")
+	serverCfg, _ := micro.NewServerCfg("Auth")
 	server := micro.NewServer(serverCfg)
 
 	// Provision API
