@@ -47,7 +47,7 @@ func main() {
 	}
 
 	// Auth a user
-	server.Router.POST("/authUser", provApi.AuthUserHandler)
+	server.Router.POST("/user", provApi.AuthUserHandler)
 
 	// run provisioning server
 	server.Run()

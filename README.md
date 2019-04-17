@@ -24,7 +24,7 @@ go run ./cmd/auth.go --esServer="http://localhost:9200"
 Authenticate user:
 ```bash
 curl -X POST \
-  http://localhost:8080/authUser \
+  http://localhost:8080/user
   -d '{
 	"id": "someuser",
 	"password": "examplepassword"
