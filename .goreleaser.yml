@@ -108,7 +108,7 @@ dockers:
   image_templates:
     - "txn2/auth:latest"
     - "txn2/auth:{{ .Tag }}"
-    - "txn2/auth:amd64-{{ .Tag }}.{{ .Minor }}"
+    - "txn2/auth:amd64-v{{ .Major }}.{{ .Minor }}"
   build_flag_templates:
     - "--label=org.label-schema.schema-version=1.0"
     - "--label=org.label-schema.version={{.Version}}"
