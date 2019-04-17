@@ -5,7 +5,7 @@
 ## Configuration
 
 Configuration is inherited from [txn2/micro](https://github.com/txn2/micro#configuration). The
-following configuration is specific to **provision**:
+following configuration is specific to **auth**:
 
 | Flag          | Environment Variable | Description                                                |
 |:--------------|:---------------------|:-----------------------------------------------------------|

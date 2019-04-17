@@ -5,7 +5,7 @@ FROM scratch
 ENV PATH=/bin
 COPY --from=certs /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 
-COPY provision /bin/
+COPY auth /bin/
 
 WORKDIR /
 
