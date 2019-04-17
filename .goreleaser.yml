@@ -103,7 +103,7 @@ dockers:
   goarch: amd64
   goarm: ''
   binaries:
-    - provision
+    - auth
   dockerfile: Dockerfile
   image_templates:
     - "txn2/auth:latest"
@@ -118,7 +118,7 @@ dockers:
   goarch: arm
   goarm: 6
   binaries:
-    - provision
+    - auth
   dockerfile: Dockerfile
   image_templates:
     - "txn2/auth:armv6-latest"
